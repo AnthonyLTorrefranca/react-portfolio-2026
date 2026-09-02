@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Home'
 
 export default function Router(){
   return (
-    <>
-      <Link>Home</Link>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
