@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
-import sg from '../assets/SG.png'
 
 export default function NavBar() {
   return (
     <nav className="flex justify-around items-center h-14 bg-black">
-    <div>
-      <a href="https://www.facebook.com/starkgraphics" target="_blank">
-      <img src={sg} className="h-15 top-0 cursor-pointer" />
-      </a>
+    <div className="flex justify-around items-center gap-3">
+      <h1 className="text-white">ANTHONY</h1>
+      <span className="h-8 w-1 bg-white" ></span>
+      <h1 className="text-white">TORREFRANCA</h1>
     </div>
     <div>
       <Link to="/" className="text-white p-4 hover:underline hover:bg-gray-500">HOME</Link>
