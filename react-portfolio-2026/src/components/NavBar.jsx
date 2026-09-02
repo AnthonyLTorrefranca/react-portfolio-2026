@@ -10,11 +10,11 @@ export default function NavBar() {
       </a>
     </div>
     <div>
-      <Link to="/" className="text-white p-4 hover:underline">HOME</Link>
-      <Link to="/bio" className="text-white p-4 hover:underline">BIO</Link>
-      <Link to="/projects" className="text-white p-4 hover:underline">PROJECTS</Link>
-      <Link to="/skills" className="text-white p-4 hover:underline">SKILLS</Link>
-      <Link to="/contact" className="text-white p-4 hover:underline">CONTACTS</Link>
+      <Link to="/" className="text-white p-4 hover:underline hover:bg-gray-500">HOME</Link>
+      <Link to="/bio" className="text-white p-4 hover:underline hover:bg-gray-500">BIO</Link>
+      <Link to="/projects" className="text-white p-4 hover:underline hover:bg-gray-500">PROJECTS</Link>
+      <Link to="/skills" className="text-white p-4 hover:underline hover:bg-gray-500">SKILLS</Link>
+      <Link to="/contact" className="text-white p-4 hover:underline hover:bg-gray-500">CONTACTS</Link>
     </div>
     </nav>
   )

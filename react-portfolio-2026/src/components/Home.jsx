@@ -1,9 +1,9 @@
-
+import heroSection from '../assets/heroSection.png'
 
 export default function Home(){
   return(
     <>
-      <h1>This is home!</h1>
+      <img src={heroSection}/>
     </>
   )
 }
