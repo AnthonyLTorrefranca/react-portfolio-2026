@@ -1,3 +1,7 @@
 export default function Contacts(){
-    return(<></>)
+    return(
+    <>
+      <p>This is for Contacts</p>
+    </>
+    )
 }

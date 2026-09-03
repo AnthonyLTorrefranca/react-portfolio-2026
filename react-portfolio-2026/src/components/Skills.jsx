@@ -1,3 +1,7 @@
 export default function Skills(){
-    return(<></>)
+    return(
+    <>
+        <p>This is for Skills</p>
+    </>
+    )
 }

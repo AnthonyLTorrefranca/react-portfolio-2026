@@ -1,3 +1,7 @@
 export default function Bio(){
-    return(<></>)
+    return(
+    <>
+        <p>This is for bio</p>
+    </>
+    )
 }
