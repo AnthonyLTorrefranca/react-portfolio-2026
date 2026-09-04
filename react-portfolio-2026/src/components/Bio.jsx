@@ -36,7 +36,7 @@ return(
     <section className="h-screen bg-black">
       <div className="flex justify-center items-center p-15">
         <div className="px-10">
-          <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full" alt="Developer's Photo" />
+          <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full hover:border-orange-400 cursor-pointer" alt="Developer's Photo" />
         </div>
         <div className="text-white w-150">
           <p className="text-white text-5xl">ABOUT ME</p>
@@ -51,7 +51,7 @@ return(
       <div className="flex items-center justify-center gap-4">
         {coreValues.map(item =>{
           return(
-            <section key={item.id} className="flex flex-col items-center justify-center bg-zinc-900 border-2 border-stone-800 h-50 w-60">
+            <section key={item.id} className="flex flex-col items-center justify-center bg-zinc-900 border-2 border-stone-600 h-50 w-60 hover:border-stone-400 cursor-pointer">
               <p className="text-3xl text-white p-4">{item.icon}</p>
               <h3 className="text-white p-4">{item.description}</h3>
             </section>
