@@ -1,4 +1,4 @@
-
+import HeaderProfile from '../assets/HeaderPf.png'
 
 export default function Bio(){
   const coreValues = [
@@ -30,11 +30,19 @@ export default function Bio(){
 return(
   <>
     <section className="h-screen bg-black">
-      <div className="flex flex-row  justify-center items-center p-15">
+      <div className="flex justify-center items-center p-15">
+        <div>
+          <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full" alt="Developer's Photo" />
+        </div>
         <p className="text-white text-5xl">ABOUT ME</p>
-        <div className="text-white">
-          <p>ENGINEERING WITH PURPOSE</p>
-          <p>I am a dedicated React JS Developer focused on turning complex requirements into responsive, high-performance web applications. My approach combines strong core programming logic with modern UI  frameworks to build scalable frontend solutions. I believe in writing readable, maintainable, and well-structured frontend code, optimizing render times, and constant refinement of my skillset.Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless.</p>
+        <div className="text-white w-150">
+          <p className="text-2xl">ENGINEERING WITH PURPOSE</p>
+          <br/>
+          <p>I am a dedicated React JS Developer focused on turning complex requirements into responsive, high-performance web applications. My approach combines strong core programming logic with modern UI  frameworks to build scalable frontend solutions. I believe in writing readable, maintainable, and well-structured frontend code, optimizing render times, and constant refinement of my skillset.
+          </p> 
+          <br/>
+          <p>Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless.
+          </p>
         </div>
       </div>
       <div className="flex items-center justify-center gap-4">
