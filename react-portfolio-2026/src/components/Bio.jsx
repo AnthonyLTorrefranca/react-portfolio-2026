@@ -3,38 +3,48 @@
 export default function Bio(){
   const coreValues = [
     {
+      id: 1,
       title: 'Clean Code',
       icon: '</>',
       description: 'Writing readable, maintainable, and well-structured frontend code.',
     },
     {
+      id: 2,
       title: 'User-Centric',
       icon: '👤',
       description: 'Focusing on intuitive user interfaces and seamless user experiences.',
     },
     {
+      id: 3,
       title: 'Performant Apps',
       icon: '🚀',
       description: 'Optimizing render times, component states, and modern web builds.', 
     },
     {
+      id: 4,
       title: 'Continuous Learning',
       icon: '💡',
       description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
     },
   ];
-return( 
+return(
   <>
     <section className="h-screen bg-black">
+      <div className="flex flex-row  justify-center items-center p-15">
+        <p className="text-white text-5xl">ABOUT ME</p>
+        <div className="text-white">
+          <p>ENGINEERING WITH PURPOSE</p>
+          <p>I am a dedicated React JS Developer focused on turning complex requirements into responsive, high-performance web applications. My approach combines strong core programming logic with modern UI  frameworks to build scalable frontend solutions. I believe in writing readable, maintainable, and well-structured frontend code, optimizing render times, and constant refinement of my skillset.Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless.</p>
+        </div>
+      </div>
       <div className="flex items-center justify-center gap-4">
-        {coreValues.map((item, index)=>{
+        {coreValues.map(item =>{
           return(
-          <>
-            <section key={index} className="flex flex-col items-center justify-center bg-zinc-900 border-2 border-stone-800 h-50 w-60">
+            <section key={item.id} className="flex flex-col items-center justify-center bg-zinc-900 border-2 border-stone-800 h-50 w-60">
               <p className="text-3xl text-white p-4">{item.icon}</p>
-              <h3 className="text=white p-4 text-white">{item.description}</h3>
+              <h3 className="text-white p-4">{item.description}</h3>
             </section>
-          </>)})}
+          )})}
       </div>
     </section>
   </>
