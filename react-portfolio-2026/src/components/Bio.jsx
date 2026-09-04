@@ -35,15 +35,16 @@ return(
   <>
     <section className="h-screen bg-black">
       <div className="flex justify-center items-center p-15">
-        <div>
+        <div className="px-10">
           <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full" alt="Developer's Photo" />
         </div>
-        <p className="text-white text-5xl">ABOUT ME</p>
         <div className="text-white w-150">
+          <p className="text-white text-5xl">ABOUT ME</p>
+            <br/>
           <p className="text-2xl">ENGINEERING WITH PURPOSE</p>
-          <br/>
+            <br/>
           <p>{introduction.intro1}</p> 
-          <br/>
+            <br/>
           <p>{introduction.intro2}</p>
         </div>
       </div>
