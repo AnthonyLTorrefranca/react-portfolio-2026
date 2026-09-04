@@ -27,6 +27,10 @@ export default function Bio(){
       description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
     },
   ];
+  const introduction = {
+    intro1: "I am a dedicated React JS Developer focused on turning complex requirements into responsive, high-performance web applications. My approach combines strong core programming logic with modern UI  frameworks to build scalable frontend solutions. I believe in writing readable, maintainable, and well-structured frontend code, optimizing render times, and constant refinement of my skillset.",
+    intro2: "Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless."
+  }
 return(
   <>
     <section className="h-screen bg-black">
@@ -38,11 +42,9 @@ return(
         <div className="text-white w-150">
           <p className="text-2xl">ENGINEERING WITH PURPOSE</p>
           <br/>
-          <p>I am a dedicated React JS Developer focused on turning complex requirements into responsive, high-performance web applications. My approach combines strong core programming logic with modern UI  frameworks to build scalable frontend solutions. I believe in writing readable, maintainable, and well-structured frontend code, optimizing render times, and constant refinement of my skillset.
-          </p> 
+          <p>{introduction.intro1}</p> 
           <br/>
-          <p>Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless.
-          </p>
+          <p>{introduction.intro2}</p>
         </div>
       </div>
       <div className="flex items-center justify-center gap-4">
