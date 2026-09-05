@@ -14,7 +14,7 @@ export default function Router(){
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contacts" element={<Contacts />} />
-      <Route path="/notfound" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   )
 }
