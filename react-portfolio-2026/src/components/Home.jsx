@@ -2,9 +2,9 @@ import heroSection from '../assets/heroSection.png'
 
 export default function Home(){
   return(
-  <div className="relative">
+  <div className="relative m-0">
     <div className="absolute top-50 right-1/4">
-      <div className="flex flex-col items-center justify-center ml-10 p-5">
+      <div className="flex flex-col items-center justify-center p-5">
         <p className="text-3xl text-white">INVEST IN MY CODE</p>
       </div>
       <div className="flex flex-col items-center justify-center py-10">
@@ -16,7 +16,7 @@ export default function Home(){
         <button className="bg-yellow-400 p-4 hover:cursor-pointer active:bg-yellow-500"><span className="text-white">VIEW MY PROJECTS!</span></button>
       </div>
     </div>
-    <div className="border-2 -z-50">
+    <div className="-z-50">
       <img src={heroSection} className="w-full h-auto object-cover"/>
     </div>
     </div>

@@ -4,9 +4,9 @@ import NavBarT from '../assets/navBarT.png'
 export default function NavBar() {
   return (
     <>
-      {/* <img src={NavBarT} alt="Navigation Bar" className="" /> */}
+      <img src={NavBarT} alt="Navigation Bar" className="" />
       <header className="fixed w-full top-0 left-0 flex justify-around items-center z-50">
-        <nav className="flex items-center justify-center gap-55 z-51 bg-black w-full">
+        <nav className="flex items-center justify-center gap-55 z-51">
           <a href="https://www.facebook.com/6saitama9" target="_blank" className="flex justify-around items-center gap-2 active:bg-gray-900">
             <p className="text-white text-xl">ANTHONY TORREFRANCA</p>
             <span className="h-8 w-1 bg-white" ></span>
