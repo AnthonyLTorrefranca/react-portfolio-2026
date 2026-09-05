@@ -35,7 +35,7 @@ return(
   <>
     <section className="h-screen bg-black">
       <div className="flex justify-center items-center p-15">
-        <div className="px-10 hover:scale-110 transition-all duration-300 cursor-pointer">
+        <div className="px-10 hover:scale-102 transition-all duration-350 cursor-pointer">
           <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full hover:border-orange-400 cursor-pointer" alt="Developer's Photo" />
         </div>
         <div className="text-white w-150">
@@ -47,6 +47,9 @@ return(
             <br/>
           <p>{introduction.intro2}</p>
         </div>
+      </div>
+      <div className="flex justify-center p-10">
+        <button className="text-white cursor-pointer border-2 border-yellow-300 p-4 rounded-xl hover:bg-yellow-500 hover:transition-all hover:duration-300">DOWNLOAD RESUME</button>
       </div>
       <div className="flex items-center justify-center gap-4">
         {coreValues.map(item =>{
