@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-// import NavBarT from '../assets/navBarT.png'
 
 export default function NavBar() {
   return (
