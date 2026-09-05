@@ -4,6 +4,7 @@ import Bio from './Bio'
 import Projects from './Projects'
 import Skills from './Skills'
 import Contacts from './Contacts'
+import NotFound from './NotFound'
 
 export default function Router(){
   return (
@@ -13,6 +14,7 @@ export default function Router(){
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contacts" element={<Contacts />} />
+      <Route path="/notfound" element={<NotFound />} />
     </Routes>
   )
 }
