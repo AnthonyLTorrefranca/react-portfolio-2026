@@ -2,13 +2,18 @@ import { Link } from 'react-router-dom'
 
 export default function NavBar() {
   return (
-    <nav className="sticky top-0 flex items-center justify-around z-[999] bg-black">
-      <a href="https://www.facebook.com/6saitama9" target="_blank" className="flex justify-around items-center gap-2 active:bg-gray-900">
-        <p className="text-white text-xl">ANTHONY TORREFRANCA</p>
-        <span className="h-8 w-1 bg-white" ></span>
-        <p className="text-yellow-300 text-xl">PORTFOLIO</p>
-      </a>
-      <div className="flex">
+    <nav className="sticky top-0 flex items-center justify-around z-[999] bg-black sm:scale-[0.85] md:scale-[0.95] lg:scale-[1]">
+      <div className="scale-[0.75]">
+        <a href="https://www.facebook.com/6saitama9" target="_blank" className="flex justify-around items-center gap-2 active:bg-gray-900">
+          <p className="text-white text-xl">ANTHONY TORREFRANCA</p>
+          <span className="h-8 w-1 bg-white" ></span>
+          <p className="text-yellow-300 text-xl">PORTFOLIO</p>
+        </a>
+      </div>
+      <div className="block lg:hidden">
+        <p className='text-9xl text-white'>BURGER</p>
+      </div>
+      <div className="hidden lg:flex">
         <Link to="/" 
           className="text-white
           text-2xl p-4 
