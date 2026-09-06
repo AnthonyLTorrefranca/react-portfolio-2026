@@ -2,10 +2,12 @@ import heroSection from '../assets/heroSection.png'
 
 export default function Home(){
   return(
-  <div className="m-0 min-h-screen" >
+  <div className="relative min-h-screen w-full overflow-hidden" >
     <div className="relative">
-      <img src={heroSection} className="w-full h-auto object-cover"/>
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8">
+      <div className="scale-[9] origin-left mr-auto lg:scale-100 lg:origin-center">
+        <img src={heroSection} className="mr-0 min-w-full h-auto object-cover"/>
+      </div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8 mt-52">
         <p className="text-3xl text-white mb-4">INVEST IN MY CODE</p>
         <p className="text-5xl text-amber-300">ANTHONY TORREFRANCA,</p>
         <p className="text-5xl text-white mb-8">REACT JS DEVELOPER</p>
