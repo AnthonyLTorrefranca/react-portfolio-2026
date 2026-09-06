@@ -2,7 +2,7 @@ import heroSection from '../assets/heroSection.png'
 
 export default function Home(){
   return(
-  <div className="m-0">
+  <div className="m-0 min-h-screen" >
     <div className="relative">
       <img src={heroSection} className="w-full h-auto object-cover"/>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8">

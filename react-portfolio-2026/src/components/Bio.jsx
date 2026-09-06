@@ -37,7 +37,7 @@ return(
         <div className="px-10 hover:scale-102 transition-all duration-350 cursor-pointer">
           <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full hover:border-orange-400 hover:scale-105 transition-all duration-350 cursor-pointer" alt="Developer's Photo" />
         </div>
-        <div className="max-w-[800px]">
+        <div className="max-w-[800px] p-4">
           <p className="text-yellow-500 text-5xl">ABOUT ME</p>
             <br/>
           <p className="text-yellow-500 text-2xl">ENGINEERING WITH PURPOSE</p>
@@ -50,10 +50,13 @@ return(
         <div className="flex justify-center p-10">
           <button className="text-white cursor-pointer border-2 border-yellow-300 p-4 rounded-xl hover:bg-yellow-500 hover:transition-all hover:duration-300">DOWNLOAD RESUME</button>
         </div>
-      <div className="cards flex items-center justify-center gap-4">
+      <div className="cards flex items-center justify-center gap-4 min-w-screen">
         {CoreValues.map(item =>{
           return(
-            <section key={item.id} className="flex flex-col items-center justify-center bg-zinc-900 border-2 border-stone-600 h-50 w-60 hover:border-stone-400 hover:scale-110 transition-all duration-300 cursor-pointer">
+            <section key={item.id} className="flex flex-col 
+            items-center justify-center bg-zinc-900 border-2
+            border-stone-600 h-50 w-60 hover:border-stone-400
+            hover:scale-110 transition-all duration-300 cursor-pointer">
               <p className="text-3xl text-white p-4">{item.icon}</p>
               <h3 className="text-white p-4">{item.description}</h3>
             </section>
