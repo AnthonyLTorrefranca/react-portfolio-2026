@@ -38,19 +38,19 @@ return(
           <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full hover:border-orange-400 hover:scale-105 transition-all duration-350 cursor-pointer" alt="Developer's Photo" />
         </div>
         <div className="max-w-[800px] p-4">
-          <p className="text-yellow-500 text-5xl">ABOUT ME</p>
+          <p className="text-yellow-500 text-2xl md:text-5xl">ABOUT ME</p>
             <br/>
-          <p className="text-yellow-500 text-2xl">ENGINEERING WITH PURPOSE</p>
+          <p className="text-yellow-500 text-xl md:text-2xl">ENGINEERING WITH PURPOSE</p>
             <br/>
-          <p className="text-gray-200 text-sm md:text-2xl">{introduction.intro1}</p> 
+          <p className="text-gray-200 text-sm sm:text-2xl">{introduction.intro1}</p> 
             <br/>
-          <p className="text-gray-200 text-sm md:text-2xl">{introduction.intro2}</p>
+          <p className="text-gray-200 text-sm sm:text-2xl">{introduction.intro2}</p>
         </div>
       </div>
         <div className="flex justify-center p-10">
           <a target='_blank' href='https://www.facebook.com/6saitama9' className="text-white cursor-pointer border-2 border-yellow-300 p-4 rounded-xl hover:bg-yellow-500 hover:transition-all  hover:duration-300">DOWNLOAD RESUME</a>
         </div>
-      <div className="cards flex items-center justify-center gap-4 min-w-screen sm:w-52 flex-wrap">
+      <div className="cards flex items-center justify-center gap-4 min-w-screen flex-wrap mx-auto">
         {CoreValues.map(item =>{
           return(
             <section key={item.id} className="flex flex-col 
