@@ -1,4 +1,5 @@
 import HeaderProfile from '../assets/HeaderPf.png'
+import CV from '../assets/TorrefrancaAnthony.pdf'
 
 export default function Bio(){
   const CoreValues = [
@@ -48,7 +49,8 @@ return(
         </div>
       </div>
         <div className="flex justify-center p-10">
-          <a target='_blank' href='https://www.facebook.com/6saitama9' className="text-white cursor-pointer border-2 border-yellow-300 p-4 rounded-xl hover:bg-yellow-500 hover:transition-all  hover:duration-300">DOWNLOAD RESUME</a>
+          <a href={CV} download
+            className="text-white cursor-pointer border-2 border-yellow-300 p-4 rounded-xl hover:bg-yellow-500 hover:transition-all  hover:duration-300">DOWNLOAD RESUME</a>
         </div>
       <div className="cards flex items-center justify-center gap-4 min-w-screen flex-wrap mx-auto">
         {CoreValues.map(item =>{
