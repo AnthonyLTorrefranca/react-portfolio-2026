@@ -13,7 +13,7 @@ export default function NavBar() {
   ]
 
   return (
-    <nav className="sticky top-0 z-[999] bg-black px-4 py-2 sm:px-8 sm:py-3 border-b border-zinc-800">
+    <nav className="sticky top-0 z-[999] bg-black px-4 py-2 sm:px-8 sm:py-3 border-b border-zinc-800 relative">
       <div className="flex items-center justify-between lg:justify-around">
         {/* Brand / Logo: small on mobile vw, scaling up on larger screens */}
         <a
@@ -78,9 +78,9 @@ export default function NavBar() {
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu: small compact font and padding */}
+      {/* Mobile Dropdown Menu: floating overlay so page content is never pushed down */}
       {isOpen && (
-        <div className="lg:hidden mt-2 pt-2 border-t border-zinc-800 flex flex-col gap-1 pb-2">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md border-b border-zinc-800 flex flex-col gap-1 p-4 shadow-2xl">
           {navLinks.map((link) => (
             <Link
               key={link.name}

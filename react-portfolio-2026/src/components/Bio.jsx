@@ -32,7 +32,7 @@ export default function Bio(){
     intro2: "Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless."
   };
 return(
-    <section className="h-screen bg-black">
+    <section className="min-h-screen bg-black">
       <div className="profile-section flex justify-center items-center p-15 max-w-[1000px] mx-auto pt-20">
         <div className="px-10 hover:scale-102 transition-all duration-350 cursor-pointer">
           <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full hover:border-orange-400 hover:scale-105 transition-all duration-350 cursor-pointer" alt="Developer's Photo" />
