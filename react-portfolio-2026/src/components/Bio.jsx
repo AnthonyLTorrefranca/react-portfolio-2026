@@ -34,18 +34,24 @@ export default function Bio(){
   };
 return(
     <section className="min-h-screen bg-black">
-      <div className="profile-section flex justify-center items-center p-15 max-w-[1000px] mx-auto pt-20">
-        <div className="px-10 hover:scale-102 transition-all duration-350 cursor-pointer">
-          <img src={HeaderProfile} className="h-100 border-orange-300 border-2 rounded-full hover:border-orange-400 hover:scale-105 transition-all duration-350 cursor-pointer" alt="Developer's Photo" />
+      <div className="profile-section flex flex-col md:flex-row justify-center items-center p-8 md:p-15 max-w-[1000px] mx-auto pt-20">
+        <div className="px-4 md:px-10 w-full flex justify-center transition-all duration-350 cursor-pointer mb-8 md:mb-0">
+          <img src={HeaderProfile} 
+            className="w-56 h-56 md:h-auto 
+              md:w-full object-cover border-orange-300 
+              border-2 rounded-full hover:border-orange-400
+              hover:scale-105 transition-all duration-350
+              cursor-pointer" 
+            alt="Developer's Photo" />
         </div>
-        <div className="max-w-[800px] p-4">
-          <p className="text-yellow-500 text-2xl md:text-5xl">ABOUT ME</p>
+        <div className="max-w-[800px] p-4 text-center md:text-left">
+          <p className="text-yellow-500 text-2xl md:text-5xl font-bold">ABOUT ME</p>
             <br/>
-          <p className="text-yellow-500 text-xl md:text-2xl">ENGINEERING WITH PURPOSE</p>
+          <p className="text-yellow-500 text-xl md:text-2xl font-semibold">ENGINEERING WITH PURPOSE</p>
             <br/>
-          <p className="text-gray-200 text-sm sm:text-2xl">{introduction.intro1}</p> 
+          <p className="text-gray-200 text-sm sm:text-xl text-justify md:text-left">{introduction.intro1}</p> 
             <br/>
-          <p className="text-gray-200 text-sm sm:text-2xl">{introduction.intro2}</p>
+          <p className="text-gray-200 text-sm sm:text-xl text-justify md:text-left">{introduction.intro2}</p>
         </div>
       </div>
         <div className="flex justify-center p-10">
