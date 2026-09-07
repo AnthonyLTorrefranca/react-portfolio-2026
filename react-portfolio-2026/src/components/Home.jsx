@@ -4,8 +4,8 @@ export default function Home(){
   return(
   <div className="relative min-h-screen w-full overflow-hidden" >
     <div className="relative">
-      <div className="scale-[9] origin-left mr-auto lg:scale-100 lg:origin-center">
-        <img src={heroSection} className="mr-0 min-w-full h-auto object-cover"/>
+      <div className="scale-[9] translate-y-8 origin-left mr-auto lg:translate-y-0 lg:scale-100 lg:origin-center">
+        <img src={heroSection} className="mr-0 min-w-full h-auto object-cover origin-top"/>
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8 mt-52">
         <p className="text-3xl text-white mb-4">INVEST IN MY CODE</p>
