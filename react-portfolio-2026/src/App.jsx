@@ -4,7 +4,7 @@ import Router from './components/Router';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/anthony">
       <NavBar />
       <Router />
     </BrowserRouter>
