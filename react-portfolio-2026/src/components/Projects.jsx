@@ -12,6 +12,51 @@ export default function Projects() {
       liveUrl: "",
       githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
     },
+    {
+      id: "2",
+      title: "word-guess-with-hints",
+      description:
+        "A Python-based word-guessing game featuring a custom hint system, input validation, and dynamic life management.",
+      image: kanbanFlow,
+      liveUrl: "",
+      githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
+    },
+    {
+      id: "3",
+      title: "word-guess-with-hints",
+      description:
+        "A Python-based word-guessing game featuring a custom hint system, input validation, and dynamic life management.",
+      image: kanbanFlow,
+      liveUrl: "",
+      githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
+    },
+    {
+      id: "4",
+      title: "word-guess-with-hints",
+      description:
+        "A Python-based word-guessing game featuring a custom hint system, input validation, and dynamic life management.",
+      image: kanbanFlow,
+      liveUrl: "",
+      githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
+    },
+    {
+      id: "5",
+      title: "word-guess-with-hints",
+      description:
+        "A Python-based word-guessing game featuring a custom hint system, input validation, and dynamic life management.",
+      image: kanbanFlow,
+      liveUrl: "",
+      githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
+    },
+    {
+      id: "6",
+      title: "word-guess-with-hints",
+      description:
+        "A Python-based word-guessing game featuring a custom hint system, input validation, and dynamic life management.",
+      image: kanbanFlow,
+      liveUrl: "",
+      githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
+    },
   ];
 
   return (
