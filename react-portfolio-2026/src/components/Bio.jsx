@@ -54,10 +54,18 @@ return(
           <p className="text-gray-200 text-sm sm:text-xl text-justify md:text-left">{introduction.intro2}</p>
         </div>
       </div>
-        <div className="flex justify-center p-10">
-          <a href={CV} download
-            className="text-white cursor-pointer border-2 border-yellow-300 p-4 rounded-xl hover:bg-yellow-500 hover:transition-all  hover:duration-300">DOWNLOAD RESUME</a>
-        </div>
+      <div className="flex justify-center p-10">
+        <a 
+          href={CV} 
+          download
+          className="inline-flex items-center
+            justify-center text-white cursor-pointer
+            border-2 border-yellow-300 p-4 rounded-xl
+            transition-all duration-300 hover:scale-110
+            active:scale-95">
+          DOWNLOAD RESUME
+        </a>
+      </div>
       <div className="cards flex items-center justify-center gap-4 min-w-screen flex-wrap mx-auto">
         {CoreValues.map(item =>{
           return(
