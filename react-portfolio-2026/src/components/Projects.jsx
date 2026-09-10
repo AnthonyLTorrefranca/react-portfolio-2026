@@ -1,16 +1,16 @@
 import ProjectCard from "./ProjectCard";
-import kanbanFlow from "../assets/HeaderPf.png";
+import ReactPortfolio from '../assets/ReactPortfolio.png'
 
 export default function Projects() {
   const projects = [
     {
       id: "1",
-      title: "word-guess-with-hints",
+      title: "react-portfolio",
       description:
-        "A Python-based word-guessing game featuring a custom hint system, input validation, and dynamic life management.",
-      image: kanbanFlow,
+        "Personal portfolio for presenting my projects and skills using React. It also includes a responsive navigation bar, project cards, and a contact form.",
+      image: ReactPortfolio,
       liveUrl: "",
-      githubUrl: "https://github.com/AnthonyLTorrefranca/word-guess-with-hints",
+      githubUrl: "https://github.com/AnthonyLTorrefranca/react-portfolio",
     },
     {
       id: "2",
