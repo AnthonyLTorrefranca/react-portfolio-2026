@@ -8,7 +8,7 @@ export default function Home(){
       <div className="scale-[9] translate-y- origin-left mr-auto lg:translate-y-0 lg:scale-100 lg:origin-center">
         <img src={heroSection} className="mr-0 min-w-full h-auto object-cover origin-top"/>
       </div>
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8">
+      <div className="absolute inset-0 flex flex-col items-center justify-start mt-[20%] text-center px-8">
         <p className="text-3xl text-white mb-4">INVEST IN MY CODE</p>
         <p className="text-5xl text-amber-300">ANTHONY TORREFRANCA,</p>
         <p className="text-5xl text-white mb-8">REACT JS DEVELOPER</p>
