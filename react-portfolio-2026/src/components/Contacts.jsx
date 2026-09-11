@@ -1,7 +1,8 @@
 import SkillsBox from './ChildComp/SkillsBox';
 
 export default function ContactSection() {
-  const contactDetails = [
+  
+    const contactDetails = [
   {
     icon: "📧",
     title: "Email",
