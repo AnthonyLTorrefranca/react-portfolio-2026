@@ -70,11 +70,11 @@ return(
         {CoreValues.map(item =>{
           return(
             <section key={item.id} className="flex flex-col 
-            items-center justify-center bg-zinc-900 border-2
-            border-stone-600 h-50 w-60 hover:border-stone-400
-            hover:scale-110 transition-all duration-300 cursor-pointer">
-              <p className="text-3xl text-white p-4">{item.icon}</p>
-              <h3 className="text-white p-4">{item.description}</h3>
+              items-center justify-center bg-zinc-900 border-2
+              border-stone-600 h-50 w-60 hover:border-stone-400
+              hover:scale-110 transition-all duration-300 cursor-pointer">
+                <p className="text-3xl text-white p-4">{item.icon}</p>
+                <h3 className="text-white p-4">{item.description}</h3>
             </section>
           )})}
       </div>
