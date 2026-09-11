@@ -27,14 +27,112 @@ export default function Bio(){
       icon: '💡',
       description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
     },
+        {
+      id: 1,
+      title: 'Clean Code',
+      icon: '</>',
+      description: 'Writing readable, maintainable, and well-structured frontend code.',
+    },
+    {
+      id: 2,
+      title: 'User-Centric',
+      icon: '👤',
+      description: 'Focusing on intuitive user interfaces and seamless user experiences.',
+    },
+    {
+      id: 3,
+      title: 'Performant Apps',
+      icon: '🚀',
+      description: 'Optimizing render times, component states, and modern web builds.', 
+    },
+    {
+      id: 4,
+      title: 'Continuous Learning',
+      icon: '💡',
+      description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
+    },
+        {
+      id: 1,
+      title: 'Clean Code',
+      icon: '</>',
+      description: 'Writing readable, maintainable, and well-structured frontend code.',
+    },
+    {
+      id: 2,
+      title: 'User-Centric',
+      icon: '👤',
+      description: 'Focusing on intuitive user interfaces and seamless user experiences.',
+    },
+    {
+      id: 3,
+      title: 'Performant Apps',
+      icon: '🚀',
+      description: 'Optimizing render times, component states, and modern web builds.', 
+    },
+    {
+      id: 4,
+      title: 'Continuous Learning',
+      icon: '💡',
+      description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
+    },
+        {
+      id: 1,
+      title: 'Clean Code',
+      icon: '</>',
+      description: 'Writing readable, maintainable, and well-structured frontend code.',
+    },
+    {
+      id: 2,
+      title: 'User-Centric',
+      icon: '👤',
+      description: 'Focusing on intuitive user interfaces and seamless user experiences.',
+    },
+    {
+      id: 3,
+      title: 'Performant Apps',
+      icon: '🚀',
+      description: 'Optimizing render times, component states, and modern web builds.', 
+    },
+    {
+      id: 4,
+      title: 'Continuous Learning',
+      icon: '💡',
+      description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
+    },
+        {
+      id: 1,
+      title: 'Clean Code',
+      icon: '</>',
+      description: 'Writing readable, maintainable, and well-structured frontend code.',
+    },
+    {
+      id: 2,
+      title: 'User-Centric',
+      icon: '👤',
+      description: 'Focusing on intuitive user interfaces and seamless user experiences.',
+    },
+    {
+      id: 3,
+      title: 'Performant Apps',
+      icon: '🚀',
+      description: 'Optimizing render times, component states, and modern web builds.', 
+    },
+    {
+      id: 4,
+      title: 'Continuous Learning',
+      icon: '💡',
+      description: 'Constantly refining JavaScript, React, and full-stack capabilities.',
+    },
   ];
   const introduction = {
     intro1: "I am a dedicated React JS Developer focused on turning complex requirements into responsive, high-performance web applications. My approach combines strong core programming logic with modern UI  frameworks to build scalable frontend solutions. I believe in writing readable, maintainable, and well-structured frontend code, optimizing render times, and constant refinement of my skillset.",
     intro2: "Replicating complex designs from Figma to production-ready React components with Tailwind CSS is my specialty. I focus on performance, clean component architecture, and continuous growth to deliver user-centric solutions. With a passion for learning and an eye for detail, I aim to create web experiences that are not just robust, but intuitive and seamless."
   };
 return(
-    <section className="min-h-screen bg-black">
-      <div className="profile-section flex flex-col md:flex-row justify-center items-center p-8 md:p-15 max-w-[1000px] mx-auto pt-20">
+    <section className="background min-h-screen bg-black">
+      <div className="profile-section flex flex-col
+        justify-center items-center p-8 mx-auto pt-20
+        md:flex-row md:p-15 max-w-[1000px] mt-50">
         <div className="px-4 md:px-10 w-full flex justify-center transition-all duration-350 cursor-pointer mb-8 md:mb-0">
           <img src={HeaderProfile} 
             className="w-56 h-56 md:h-auto 
