@@ -20,9 +20,7 @@ export default function Home(){
         </Link>
       </div>
     </div>
-    <div className='absolute top-0 right-0
-      text-black flex justify-end
-      cursor-pointer h-20 w-20 bg-green-300'>
+    <div className='absolute top-0 right-0 text-black flex justify-end cursor-pointer h-20 w-20 bg-green-300'>
       <ThemeToggle />
     </div>
   </div>
