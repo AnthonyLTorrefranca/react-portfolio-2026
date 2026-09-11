@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function ThemeToggle(){
   const [Theme, setTheme] = useState(true)
+
+  useEffect(()=>{})
+
   function toggleTheme(){
-    setTheme(!Theme)
-    console.log(Theme)
+    setTheme(prevTheme=> !prevTheme)
   }
   return(
     <>
