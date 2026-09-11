@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 export default function NotFound(){
     return(
     <div className="flex items-center justify-center flex-col w-screen h-screen bg-red-950">
-      <p className="text-9xl font-bold">404 - PAGE NOT FOUND!</p>
+      <p className="text-4x md:text-9xl font-bold">404 - PAGE NOT FOUND!</p>
       <Link to="/" className="mt-10 hover:scale-110 transition-all duration-300 ">
         <Button variant="outline" className="text-black px-6 py-4 
           border-2 border-white rounded-2xl bg-white 
