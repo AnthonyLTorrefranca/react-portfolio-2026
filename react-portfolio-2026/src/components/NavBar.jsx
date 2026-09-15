@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import ThemeToggle from './ChildComp/ThemeToggle'
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -91,6 +92,9 @@ export default function NavBar() {
               {link.name}
             </Link>
           ))}
+          <div className="text-black absolute h-8 w-8 bg-blue-400">
+            <ThemeToggle />
+          </div>
         </div>
       )}
     </nav>
