@@ -64,8 +64,8 @@ return(
           className="inline-flex items-center
             justify-center text-white cursor-pointer
             border-2 border-yellow-300 p-4 rounded-xl
-            transition-all duration-300 hover:scale-110
-            active:scale-95">
+            transition-all duration-300 hover:scale-105
+            hover:bg-yellow-500 active:scale-95">
           DOWNLOAD RESUME
         </a>
       </div>
