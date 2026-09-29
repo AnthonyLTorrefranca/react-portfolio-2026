@@ -3,48 +3,56 @@
     "id": "python",
     "icon": "🐍",
     "title": "Python",
-    "description": "Core logic, scripting, & backend data handling"
+    "description": "Core logic, scripting, & backend data handling",
+    "category": "Backend"
   },
   {
     "id": "javascript",
     "icon": "⚡",
     "title": "JavaScript",
-    "description": "ES6+ syntax, DOM manipulation, & async workflows"
+    "description": "ES6+ syntax, DOM manipulation, & async workflows",
+    "category": "Frontend"
   },
   {
     "id": "react",
     "icon": "⚛️",
     "title": "React.js",
-    "description": "Component architecture, state management, & UI builds"
+    "description": "Component architecture, state management, & UI builds",
+    "category": "Frontend"
   },
   {
     "id": "tailwind",
     "icon": "🎨",
     "title": "Tailwind CSS",
-    "description": "Utility-first responsive layouts & custom component styling"
+    "description": "Utility-first responsive layouts & custom component styling",
+    "category": "Frontend"
   },
   {
     "id": "html-css",
     "icon": "🌐",
     "title": "HTML5 / CSS3",
-    "description": "Semantic web structure & modern layout design"
+    "description": "Semantic web structure & modern layout design",
+    "category": "Frontend"
   },
   {
     "id": "mongodb",
     "icon": "🍃",
     "title": "MongoDB",
-    "description": "NoSQL database design & CRUD operations"
+    "description": "NoSQL database design & CRUD operations",
+    "category": "Backend"
   },
   {
     "id": "git",
     "icon": "🐙",
     "title": "Git / GitHub",
-    "description": "Version control, branching workflows, & repo management"
+    "description": "Version control, branching workflows, & repo management",
+    "category": "Workflow"
   },
   {
     "id": "figma",
     "icon": "📐",
     "title": "Figma to Code",
-    "description": "Translating UI/UX mockups into pixel-perfect React components"
+    "description": "Translating UI/UX mockups into pixel-perfect React components",
+    "category": "Workflow"
   }
 ]
