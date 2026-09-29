@@ -77,11 +77,17 @@ export default function NavBar() {
             </Link>
           ))}
         </div>
+        <div className="hidden lg:flex text-black absolute h-8 w-8 bg-blue-400">
+          <ThemeToggle />
+        </div>
       </div>
 
       {/* Mobile Dropdown Menu: floating overlay so page content is never pushed down */}
       {isOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md border-b border-zinc-800 flex flex-col gap-1 p-4 shadow-2xl">
+        <div className="lg:hidden absolute top-full
+          left-0 w-full bg-black/95 backdrop-blur-md
+          border-b border-zinc-800 flex flex-col gap-1
+          p-4 shadow-2xl">
           {navLinks.map((link) => (
             <Link
               key={link.name}

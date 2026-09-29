@@ -1,0 +1,50 @@
+[
+  {
+    "id": "python",
+    "icon": "🐍",
+    "title": "Python",
+    "description": "Core logic, scripting, & backend data handling"
+  },
+  {
+    "id": "javascript",
+    "icon": "⚡",
+    "title": "JavaScript",
+    "description": "ES6+ syntax, DOM manipulation, & async workflows"
+  },
+  {
+    "id": "react",
+    "icon": "⚛️",
+    "title": "React.js",
+    "description": "Component architecture, state management, & UI builds"
+  },
+  {
+    "id": "tailwind",
+    "icon": "🎨",
+    "title": "Tailwind CSS",
+    "description": "Utility-first responsive layouts & custom component styling"
+  },
+  {
+    "id": "html-css",
+    "icon": "🌐",
+    "title": "HTML5 / CSS3",
+    "description": "Semantic web structure & modern layout design"
+  },
+  {
+    "id": "mongodb",
+    "icon": "🍃",
+    "title": "MongoDB",
+    "description": "NoSQL database design & CRUD operations"
+  },
+  {
+    "id": "git",
+    "icon": "🐙",
+    "title": "Git / GitHub",
+    "description": "Version control, branching workflows, & repo management"
+  },
+  {
+    "id": "figma",
+    "icon": "📐",
+    "title": "Figma to Code",
+    "description": "Translating UI/UX mockups into pixel-perfect React components"
+  }
+]
