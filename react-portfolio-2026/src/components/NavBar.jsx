@@ -68,14 +68,13 @@ export default function NavBar() {
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex items-center gap-2">
           {navLinks.map((link) => (
-            <>
-              <Link
-                key={link.name}
-                to={link.path}
-                className="text-white text-lg xl:text-2xl px-4 py-2 hover:text-yellow-300 transition-colors"
-              >{link.name}
-              </Link>
-            </>
+            <Link
+              key={link.name}
+              to={link.path}
+              className="text-white text-lg xl:text-2xl px-4 py-2 hover:text-yellow-300 transition-colors"
+            >
+              {link.name}
+            </Link>
           ))}
           <div className="hidden lg:flex text-black absolute h-8 w-8 bg-yellow-400 right-5 top-4 rounded-lg hover:bg-yellow-300 hover:cursor-pointer">
             <ThemeToggle />
