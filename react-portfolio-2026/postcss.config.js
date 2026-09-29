@@ -3,10 +3,4 @@ export default {
     tailwindcss: {},
     autoprefixer: {},
   },
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
 }
