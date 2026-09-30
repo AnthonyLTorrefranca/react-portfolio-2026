@@ -7,21 +7,23 @@ export default function Skills() {
     console.log(Categories)
   }
  return (
-   <div className='h-screen bg-gray-700'>
-   {Categories.map((category, index) =>
-      <div key={index} className='h-5 bg-green-300'>
-        <div className="h-5 border-2 border-black rounded-xl">
-          <h3 className='flex items-center justify-center text-black'>{category}</h3>
-          {/* {SkillsData.filter(item=> item.category=== category)
+   <div className='h-screen w-screen'>
+    {Categories.map((category, index) => 
+        <div key={index}>
+          <p className="flex items-center justify-center text-2xl">{category}</p>
+          <div className="flex p-8 m-8">
+            {SkillsData
+              .filter(item=> item.category === category)
               .map((item,index) =>
-                <SkillsDataBox key={index} 
+                <SkillsDataBox
+                  key={index}
                   icon={item.icon}
                   title={item.title}
                   description={item.description}
                   />
-              )} */}
+              )}
+          </div>
         </div>
-      </div>
       )}
    </div>
   );
