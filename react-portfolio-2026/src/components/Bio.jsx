@@ -1,5 +1,5 @@
 import HeaderProfile from '../assets/HeaderPf.png'
-import CV from '../../src/assets/TorrefrancaAnthony.pdf'
+import CV from '../assets/TorrefrancaAnthony.pdf'
 
 export default function Bio(){
   const CoreValues = [
