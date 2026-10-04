@@ -1,19 +1,5 @@
 [
   {
-    "id": "python",
-    "icon": "🐍",
-    "title": "Python",
-    "description": "Core logic, scripting, & backend data handling",
-    "category": "Backend"
-  },
-  {
-    "id": "javascript",
-    "icon": "⚡",
-    "title": "JavaScript",
-    "description": "ES6+ syntax, DOM manipulation, & async workflows",
-    "category": "Frontend"
-  },
-  {
     "id": "react",
     "icon": "⚛️",
     "title": "React.js",
@@ -40,6 +26,19 @@
     "title": "MongoDB",
     "description": "NoSQL database design & CRUD operations",
     "category": "Backend"
+  },  {
+    "id": "python",
+    "icon": "🐍",
+    "title": "Python",
+    "description": "Core logic, scripting, & backend data handling",
+    "category": "Backend"
+  },
+  {
+    "id": "javascript",
+    "icon": "⚡",
+    "title": "JavaScript",
+    "description": "ES6+ syntax, DOM manipulation, & async workflows",
+    "category": "Frontend"
   },
   {
     "id": "git",

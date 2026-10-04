@@ -76,9 +76,9 @@ export default function NavBar() {
               {link.name}
             </Link>
           ))}
-          <div className="hidden lg:flex text-black absolute h-8 w-8 bg-yellow-400 right-5 top-4 rounded-lg hover:bg-yellow-300 hover:cursor-pointer">
+          {/* <div className="hidden lg:flex text-black absolute h-8 w-8 bg-yellow-400 right-5 top-4 rounded-lg hover:bg-yellow-300 hover:cursor-pointer">
             <ThemeToggle />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -98,9 +98,9 @@ export default function NavBar() {
               {link.name}
             </Link>
           ))}
-          <div className="text-black absolute h-8 w-8 bg-yellow-400 rounded-lg hover:bg-yellow-300 hover:cursor-pointer">
+          {/* <div className="text-black absolute h-8 w-8 bg-yellow-400 rounded-lg hover:bg-yellow-300 hover:cursor-pointer">
             <ThemeToggle />
-          </div>
+          </div> */}
         </div>
       )}
     </nav>
