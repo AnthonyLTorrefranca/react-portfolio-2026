@@ -10,18 +10,20 @@ export default function Skills() {
     <p className="text-sm pb-10">The tools I use to design, build, and ship web apps.</p>
       {categories.map((category) =>
         <div key={category}>
-          <p>{category}</p>
+          <p className="font-bold text-gray-600 my-3">{category}</p>
+          <hr className="border border-gray-300 w-[80rem]"/>
+          <div className="flex">
           {SkillsData
             .filter(item => item.category === category)
             .map((item, index) => 
-            <div key={index}>
               <SkillsDataBox
+                key={index}
                 icon={item.icon}
                 title={item.title}
                 description={item.description}
-              />
-            </div>)
-          }
+              />)
+            }
+            </div>
         </div>
       )}
     </section>
