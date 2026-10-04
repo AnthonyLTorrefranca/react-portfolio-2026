@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ThemeToggle from './ChildComp/ThemeToggle'
+// import ThemeToggle from './ChildComp/ThemeToggle'
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -84,16 +84,17 @@ export default function NavBar() {
 
       {/* Mobile Dropdown Menu: floating overlay so page content is never pushed down */}
       {isOpen && (
-        <div className="lg:hidden absolute top-full
-          left-0 w-full bg-black/95 backdrop-blur-md
-          border-b border-zinc-800 flex flex-col gap-1
+        <div className="flex flex-col items-center lg:hidden
+          absolute top-full left-0 w-full bg-black/95
+          backdrop-blur-md border-b border-zinc-800gap-1
           p-4 shadow-2xl">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               to={link.path}
               onClick={() => setIsOpen(false)}
-              className="text-white text-sm sm:text-base py-2 px-3 rounded hover:bg-zinc-900 hover:text-yellow-300 transition-colors"
+              className="text-white text-sm sm:text-base py-2 w-screen
+                px-3 rounded hover:bg-zinc-900 hover:text-yellow-300 transition-colors"
             >
               {link.name}
             </Link>
