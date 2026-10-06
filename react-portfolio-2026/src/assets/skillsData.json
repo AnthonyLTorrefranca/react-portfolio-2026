@@ -3,7 +3,7 @@
     "id": "react",
     "icon": "⚛️",
     "title": "React.js",
-    "description": "Component architecture, state management, & UI builds",
+    "description": "Component architecture, state management, & reusable UI",
     "category": "Frontend"
   },
   {
